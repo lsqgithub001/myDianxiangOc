@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LoginViewController.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    LoginViewController *l = [[LoginViewController alloc]init];
+    
+    [self presentViewController:l animated:false completion:nil];
 }
 
 

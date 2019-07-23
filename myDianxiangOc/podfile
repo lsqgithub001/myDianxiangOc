@@ -1,0 +1,30 @@
+target 'myDianxiangOc' do
+    # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+    use_frameworks!
+    
+    pod 'QMUIKit','~> 2.6.2'
+    pod 'ReactiveCocoa', '~> 2.5'
+    pod 'SDAutoLayout'
+    pod 'AFNetworking'
+    pod 'MJExtension', '~> 3.0.13'
+    pod 'YYModel'
+    pod 'SDWebImage'
+    pod 'MJRefresh'
+    pod 'Masonry'
+    pod 'IQKeyboardManager'
+    pod 'UMengUShare/UI'
+    pod 'UMengUShare/Social/ReducedQQ'
+    pod 'UMengUShare/Social/ReducedWeChat'
+    #    pod 'Charts','~> 3.1.1'
+    pod 'MQTTClient','~> 0.14.0'
+    pod 'WZLBadge' #角标
+    pod 'NSDictionary-NilSafe'
+    #    pod 'MLeaksFinder'
+    pod 'Bugtags'
+    pod 'WoodPeckeriOS', :configurations => ['Debug']
+    #    pod 'MLeaksFinder'
+    pod 'UICountingLabel'
+    
+    
+    
+end

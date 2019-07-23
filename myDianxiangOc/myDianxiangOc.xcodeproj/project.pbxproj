@@ -15,6 +15,10 @@
 		0929CB4422E6BDFB00ADC2F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0929CB4322E6BDFB00ADC2F5 /* main.m */; };
 		0929CB4E22E6BDFC00ADC2F5 /* myDianxiangOcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0929CB4D22E6BDFC00ADC2F5 /* myDianxiangOcTests.m */; };
 		0929CB5922E6BDFC00ADC2F5 /* myDianxiangOcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0929CB5822E6BDFC00ADC2F5 /* myDianxiangOcUITests.m */; };
+		0929CB6922E6E24F00ADC2F5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0929CB6722E6E24F00ADC2F5 /* LoginViewController.m */; };
+		0929CB6A22E6E24F00ADC2F5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0929CB6822E6E24F00ADC2F5 /* LoginViewController.xib */; };
+		0929CB6E22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0929CB6C22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.m */; };
+		39F49940E2886E480C8B7BB7 /* Pods_myDianxiangOc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97C18E4FB6C19FB7B08791E /* Pods_myDianxiangOc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		0929CB5422E6BDFC00ADC2F5 /* myDianxiangOcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myDianxiangOcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0929CB5822E6BDFC00ADC2F5 /* myDianxiangOcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myDianxiangOcUITests.m; sourceTree = "<group>"; };
 		0929CB5A22E6BDFC00ADC2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0929CB6622E6E24F00ADC2F5 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0929CB6722E6E24F00ADC2F5 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0929CB6822E6E24F00ADC2F5 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		0929CB6B22E6FA6B00ADC2F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0929CB6C22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		0929CB6D22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		1DF91AF14EE21377C959D173 /* Pods-myDianxiangOc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDianxiangOc.debug.xcconfig"; path = "Target Support Files/Pods-myDianxiangOc/Pods-myDianxiangOc.debug.xcconfig"; sourceTree = "<group>"; };
+		304538249F1A9D0D909982FB /* Pods-myDianxiangOc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDianxiangOc.release.xcconfig"; path = "Target Support Files/Pods-myDianxiangOc/Pods-myDianxiangOc.release.xcconfig"; sourceTree = "<group>"; };
+		A97C18E4FB6C19FB7B08791E /* Pods_myDianxiangOc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myDianxiangOc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F49940E2886E480C8B7BB7 /* Pods_myDianxiangOc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +99,8 @@
 				0929CB4C22E6BDFC00ADC2F5 /* myDianxiangOcTests */,
 				0929CB5722E6BDFC00ADC2F5 /* myDianxiangOcUITests */,
 				0929CB3222E6BDFB00ADC2F5 /* Products */,
+				94744E79D3FD66EA6D04A41B /* Pods */,
+				50CEB29EECA0035031847B1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +121,17 @@
 				0929CB3522E6BDFB00ADC2F5 /* AppDelegate.m */,
 				0929CB3722E6BDFB00ADC2F5 /* ViewController.h */,
 				0929CB3822E6BDFB00ADC2F5 /* ViewController.m */,
+				0929CB6D22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.h */,
+				0929CB6C22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.m */,
+				0929CB6622E6E24F00ADC2F5 /* LoginViewController.h */,
+				0929CB6722E6E24F00ADC2F5 /* LoginViewController.m */,
+				0929CB6822E6E24F00ADC2F5 /* LoginViewController.xib */,
 				0929CB3A22E6BDFB00ADC2F5 /* Main.storyboard */,
 				0929CB3D22E6BDFB00ADC2F5 /* Assets.xcassets */,
 				0929CB3F22E6BDFB00ADC2F5 /* LaunchScreen.storyboard */,
 				0929CB4222E6BDFB00ADC2F5 /* Info.plist */,
 				0929CB4322E6BDFB00ADC2F5 /* main.m */,
+				0929CB6B22E6FA6B00ADC2F5 /* PrefixHeader.pch */,
 			);
 			path = myDianxiangOc;
 			sourceTree = "<group>";
@@ -132,6 +154,23 @@
 			path = myDianxiangOcUITests;
 			sourceTree = "<group>";
 		};
+		50CEB29EECA0035031847B1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A97C18E4FB6C19FB7B08791E /* Pods_myDianxiangOc.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94744E79D3FD66EA6D04A41B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DF91AF14EE21377C959D173 /* Pods-myDianxiangOc.debug.xcconfig */,
+				304538249F1A9D0D909982FB /* Pods-myDianxiangOc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0929CB5D22E6BDFC00ADC2F5 /* Build configuration list for PBXNativeTarget "myDianxiangOc" */;
 			buildPhases = (
+				68B0D2E598CA06CE8D6E7965 /* [CP] Check Pods Manifest.lock */,
 				0929CB2D22E6BDFB00ADC2F5 /* Sources */,
 				0929CB2E22E6BDFB00ADC2F5 /* Frameworks */,
 				0929CB2F22E6BDFB00ADC2F5 /* Resources */,
+				170F4701D1C3A9CED649AF94 /* [CP] Embed Pods Frameworks */,
+				A6FEF061F385EC9245ABCAA7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0929CB6A22E6E24F00ADC2F5 /* LoginViewController.xib in Resources */,
 				0929CB4122E6BDFB00ADC2F5 /* LaunchScreen.storyboard in Resources */,
 				0929CB3E22E6BDFB00ADC2F5 /* Assets.xcassets in Resources */,
 				0929CB3C22E6BDFB00ADC2F5 /* Main.storyboard in Resources */,
@@ -257,12 +300,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		170F4701D1C3A9CED649AF94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myDianxiangOc/Pods-myDianxiangOc-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MQTTClient/MQTTClient.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/NSDictionary-NilSafe/NSDictionary_NilSafe.framework",
+				"${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/UICountingLabel/UICountingLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/WZLBadge/WZLBadge.framework",
+				"${PODS_ROOT}/WoodPeckeriOS/WoodPeckeriOS.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MQTTClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSDictionary_NilSafe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMUIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDAutoLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICountingLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WZLBadge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WoodPeckeriOS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myDianxiangOc/Pods-myDianxiangOc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68B0D2E598CA06CE8D6E7965 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myDianxiangOc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6FEF061F385EC9245ABCAA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myDianxiangOc/Pods-myDianxiangOc-resources.sh",
+				"${PODS_ROOT}/Bugtags/Bugtags.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMengUShare/UShareSDK/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Bugtags.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myDianxiangOc/Pods-myDianxiangOc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0929CB2D22E6BDFB00ADC2F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0929CB6922E6E24F00ADC2F5 /* LoginViewController.m in Sources */,
 				0929CB3922E6BDFB00ADC2F5 /* ViewController.m in Sources */,
+				0929CB6E22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.m in Sources */,
 				0929CB4422E6BDFB00ADC2F5 /* main.m in Sources */,
 				0929CB3622E6BDFB00ADC2F5 /* AppDelegate.m in Sources */,
 			);
@@ -433,10 +579,13 @@
 		};
 		0929CB5E22E6BDFC00ADC2F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF91AF14EE21377C959D173 /* Pods-myDianxiangOc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJ2S48C9J9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/myDianxiangOc/PrefixHeader.pch";
 				INFOPLIST_FILE = myDianxiangOc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,10 +599,13 @@
 		};
 		0929CB5F22E6BDFC00ADC2F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304538249F1A9D0D909982FB /* Pods-myDianxiangOc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KJ2S48C9J9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/myDianxiangOc/PrefixHeader.pch";
 				INFOPLIST_FILE = myDianxiangOc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
