@@ -1,0 +1,6 @@
+framework module Pods_myDianxiangOc {
+  umbrella header "Pods-myDianxiangOc-umbrella.h"
+
+  export *
+  module * { export * }
+}
