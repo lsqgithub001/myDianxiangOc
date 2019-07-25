@@ -15,10 +15,24 @@
 
 #import <QMUIKit/QMUIKit.h>
 #import <IQKeyboardManager/IQKeyboardManager.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <YYModel/YYModel.h>
+#import <AFNetworking/AFNetworking.h>
+#import <MJExtension/MJExtension.h>
+#import <SDWebImage/SDWebImage.h>
+#import <SDAutoLayout/SDAutoLayout.h>
+
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight  [UIScreen mainScreen].bounds.size.height
 #define kScale_W(w) ((kScreenWidth)/375) * (w)
 #define kScale_H(h) (kScreenHeight/667) * (h)
+//RGB格式
+#define kRGB(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//RGBA格式
+#define kRGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+//随机颜色
+#define kRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+
 
 #endif /* PrefixHeader_pch */

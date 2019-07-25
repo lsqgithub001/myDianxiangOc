@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe" customClass="myCellView">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Qs-jr-CpY">
+                    <rect key="frame" x="0.0" y="220" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="4IC-Qc-0Nv"/>
+                        <constraint firstAttribute="height" constant="48" id="cTg-HU-bjE"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSBonjour" id="uYd-lO-Cvx"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yTg-na-mzx">
+                    <rect key="frame" x="46" y="245" width="96" height="17"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" title="wotamade jiba " id="8uT-zo-1qK">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="1Qs-jr-CpY" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" id="BhN-8G-Uk1"/>
+                <constraint firstItem="1Qs-jr-CpY" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="4" id="im0-uG-gMo"/>
+                <constraint firstItem="yTg-na-mzx" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="10" id="miF-S9-RtH"/>
+                <constraint firstItem="yTg-na-mzx" firstAttribute="leading" secondItem="1Qs-jr-CpY" secondAttribute="trailing" id="vJ9-d6-fuf"/>
+            </constraints>
+            <connections>
+                <outlet property="myImage" destination="1Qs-jr-CpY" id="Z8U-lk-IVP"/>
+                <outlet property="myLabel" destination="yTg-na-mzx" id="5B9-a9-Bg4"/>
+            </connections>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSBonjour" width="32" height="32"/>
+    </resources>
+</document>

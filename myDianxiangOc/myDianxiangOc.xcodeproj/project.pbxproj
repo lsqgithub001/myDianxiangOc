@@ -18,6 +18,20 @@
 		0929CB6922E6E24F00ADC2F5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0929CB6722E6E24F00ADC2F5 /* LoginViewController.m */; };
 		0929CB6A22E6E24F00ADC2F5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0929CB6822E6E24F00ADC2F5 /* LoginViewController.xib */; };
 		0929CB6E22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0929CB6C22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.m */; };
+		0944296D22E804D800CA2472 /* tabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944296C22E804D800CA2472 /* tabbarViewController.m */; };
+		0944297522E8058100CA2472 /* mineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944297322E8058100CA2472 /* mineViewController.m */; };
+		0944297622E8058100CA2472 /* mineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0944297422E8058100CA2472 /* mineViewController.xib */; };
+		0944297A22E805A400CA2472 /* statisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944297822E805A400CA2472 /* statisticsViewController.m */; };
+		0944297B22E805A400CA2472 /* statisticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0944297922E805A400CA2472 /* statisticsViewController.xib */; };
+		0944297F22E805B800CA2472 /* boxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944297D22E805B800CA2472 /* boxViewController.m */; };
+		0944298022E805B800CA2472 /* boxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0944297E22E805B800CA2472 /* boxViewController.xib */; };
+		0944298422E805C600CA2472 /* indexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944298222E805C500CA2472 /* indexViewController.m */; };
+		0944298522E805C600CA2472 /* indexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0944298322E805C600CA2472 /* indexViewController.xib */; };
+		0944298C22E83D4600CA2472 /* text.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944298B22E83D4600CA2472 /* text.m */; };
+		0944299022E83E3A00CA2472 /* text.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0944298F22E83E3900CA2472 /* text.xib */; };
+		0944299422E85F1A00CA2472 /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944299222E85F1A00CA2472 /* DetailCell.m */; };
+		0944299522E85F1A00CA2472 /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0944299322E85F1A00CA2472 /* DetailCell.xib */; };
+		0950744422E8802100901913 /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 0950744322E8802100901913 /* model.m */; };
 		39F49940E2886E480C8B7BB7 /* Pods_myDianxiangOc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97C18E4FB6C19FB7B08791E /* Pods_myDianxiangOc.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +75,28 @@
 		0929CB6B22E6FA6B00ADC2F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0929CB6C22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
 		0929CB6D22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		0944296B22E804D800CA2472 /* tabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tabbarViewController.h; sourceTree = "<group>"; };
+		0944296C22E804D800CA2472 /* tabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tabbarViewController.m; sourceTree = "<group>"; };
+		0944297222E8058100CA2472 /* mineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mineViewController.h; sourceTree = "<group>"; };
+		0944297322E8058100CA2472 /* mineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mineViewController.m; sourceTree = "<group>"; };
+		0944297422E8058100CA2472 /* mineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mineViewController.xib; sourceTree = "<group>"; };
+		0944297722E805A400CA2472 /* statisticsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = statisticsViewController.h; sourceTree = "<group>"; };
+		0944297822E805A400CA2472 /* statisticsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = statisticsViewController.m; sourceTree = "<group>"; };
+		0944297922E805A400CA2472 /* statisticsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = statisticsViewController.xib; sourceTree = "<group>"; };
+		0944297C22E805B800CA2472 /* boxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boxViewController.h; sourceTree = "<group>"; };
+		0944297D22E805B800CA2472 /* boxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boxViewController.m; sourceTree = "<group>"; };
+		0944297E22E805B800CA2472 /* boxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = boxViewController.xib; sourceTree = "<group>"; };
+		0944298122E805C500CA2472 /* indexViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = indexViewController.h; sourceTree = "<group>"; };
+		0944298222E805C500CA2472 /* indexViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = indexViewController.m; sourceTree = "<group>"; };
+		0944298322E805C600CA2472 /* indexViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = indexViewController.xib; sourceTree = "<group>"; };
+		0944298A22E83D4600CA2472 /* text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
+		0944298B22E83D4600CA2472 /* text.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = text.m; sourceTree = "<group>"; };
+		0944298F22E83E3900CA2472 /* text.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = text.xib; sourceTree = "<group>"; };
+		0944299122E85F1A00CA2472 /* DetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
+		0944299222E85F1A00CA2472 /* DetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
+		0944299322E85F1A00CA2472 /* DetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
+		0950744222E8802100901913 /* model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		0950744322E8802100901913 /* model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
 		1DF91AF14EE21377C959D173 /* Pods-myDianxiangOc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDianxiangOc.debug.xcconfig"; path = "Target Support Files/Pods-myDianxiangOc/Pods-myDianxiangOc.debug.xcconfig"; sourceTree = "<group>"; };
 		304538249F1A9D0D909982FB /* Pods-myDianxiangOc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDianxiangOc.release.xcconfig"; path = "Target Support Files/Pods-myDianxiangOc/Pods-myDianxiangOc.release.xcconfig"; sourceTree = "<group>"; };
 		A97C18E4FB6C19FB7B08791E /* Pods_myDianxiangOc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myDianxiangOc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +153,10 @@
 		0929CB3322E6BDFB00ADC2F5 /* myDianxiangOc */ = {
 			isa = PBXGroup;
 			children = (
+				0944297122E804F200CA2472 /* 我的 */,
+				0944297022E804EF00CA2472 /* 用电统计 */,
+				0944296F22E804EC00CA2472 /* 配电箱 */,
+				0944296E22E804EA00CA2472 /* 首页 */,
 				0929CB3422E6BDFB00ADC2F5 /* AppDelegate.h */,
 				0929CB3522E6BDFB00ADC2F5 /* AppDelegate.m */,
 				0929CB3722E6BDFB00ADC2F5 /* ViewController.h */,
@@ -126,6 +166,8 @@
 				0929CB6622E6E24F00ADC2F5 /* LoginViewController.h */,
 				0929CB6722E6E24F00ADC2F5 /* LoginViewController.m */,
 				0929CB6822E6E24F00ADC2F5 /* LoginViewController.xib */,
+				0944296B22E804D800CA2472 /* tabbarViewController.h */,
+				0944296C22E804D800CA2472 /* tabbarViewController.m */,
 				0929CB3A22E6BDFB00ADC2F5 /* Main.storyboard */,
 				0929CB3D22E6BDFB00ADC2F5 /* Assets.xcassets */,
 				0929CB3F22E6BDFB00ADC2F5 /* LaunchScreen.storyboard */,
@@ -152,6 +194,62 @@
 				0929CB5A22E6BDFC00ADC2F5 /* Info.plist */,
 			);
 			path = myDianxiangOcUITests;
+			sourceTree = "<group>";
+		};
+		0944296E22E804EA00CA2472 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				0950744122E8801200901913 /* New Group */,
+				0944298122E805C500CA2472 /* indexViewController.h */,
+				0944298222E805C500CA2472 /* indexViewController.m */,
+				0944298322E805C600CA2472 /* indexViewController.xib */,
+				0944298A22E83D4600CA2472 /* text.h */,
+				0944298B22E83D4600CA2472 /* text.m */,
+				0944298F22E83E3900CA2472 /* text.xib */,
+				0944299122E85F1A00CA2472 /* DetailCell.h */,
+				0944299222E85F1A00CA2472 /* DetailCell.m */,
+				0944299322E85F1A00CA2472 /* DetailCell.xib */,
+				0950744222E8802100901913 /* model.h */,
+				0950744322E8802100901913 /* model.m */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		0944296F22E804EC00CA2472 /* 配电箱 */ = {
+			isa = PBXGroup;
+			children = (
+				0944297C22E805B800CA2472 /* boxViewController.h */,
+				0944297D22E805B800CA2472 /* boxViewController.m */,
+				0944297E22E805B800CA2472 /* boxViewController.xib */,
+			);
+			path = "配电箱";
+			sourceTree = "<group>";
+		};
+		0944297022E804EF00CA2472 /* 用电统计 */ = {
+			isa = PBXGroup;
+			children = (
+				0944297722E805A400CA2472 /* statisticsViewController.h */,
+				0944297822E805A400CA2472 /* statisticsViewController.m */,
+				0944297922E805A400CA2472 /* statisticsViewController.xib */,
+			);
+			path = "用电统计";
+			sourceTree = "<group>";
+		};
+		0944297122E804F200CA2472 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				0944297222E8058100CA2472 /* mineViewController.h */,
+				0944297322E8058100CA2472 /* mineViewController.m */,
+				0944297422E8058100CA2472 /* mineViewController.xib */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		0950744122E8801200901913 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		50CEB29EECA0035031847B1D /* Frameworks */ = {
@@ -278,9 +376,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0929CB6A22E6E24F00ADC2F5 /* LoginViewController.xib in Resources */,
+				0944297B22E805A400CA2472 /* statisticsViewController.xib in Resources */,
+				0944298022E805B800CA2472 /* boxViewController.xib in Resources */,
 				0929CB4122E6BDFB00ADC2F5 /* LaunchScreen.storyboard in Resources */,
+				0944299522E85F1A00CA2472 /* DetailCell.xib in Resources */,
 				0929CB3E22E6BDFB00ADC2F5 /* Assets.xcassets in Resources */,
+				0944297622E8058100CA2472 /* mineViewController.xib in Resources */,
+				0944299022E83E3A00CA2472 /* text.xib in Resources */,
 				0929CB3C22E6BDFB00ADC2F5 /* Main.storyboard in Resources */,
+				0944298522E805C600CA2472 /* indexViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,10 +511,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0929CB6922E6E24F00ADC2F5 /* LoginViewController.m in Sources */,
+				0944297F22E805B800CA2472 /* boxViewController.m in Sources */,
+				0944299422E85F1A00CA2472 /* DetailCell.m in Sources */,
 				0929CB3922E6BDFB00ADC2F5 /* ViewController.m in Sources */,
+				0944297522E8058100CA2472 /* mineViewController.m in Sources */,
+				0950744422E8802100901913 /* model.m in Sources */,
+				0944296D22E804D800CA2472 /* tabbarViewController.m in Sources */,
 				0929CB6E22E6FDC600ADC2F5 /* QMUIConfigurationTemplate.m in Sources */,
 				0929CB4422E6BDFB00ADC2F5 /* main.m in Sources */,
+				0944298422E805C600CA2472 /* indexViewController.m in Sources */,
 				0929CB3622E6BDFB00ADC2F5 /* AppDelegate.m in Sources */,
+				0944298C22E83D4600CA2472 /* text.m in Sources */,
+				0944297A22E805A400CA2472 /* statisticsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

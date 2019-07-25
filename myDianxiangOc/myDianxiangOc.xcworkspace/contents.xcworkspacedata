@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/lsq/myDianxiangOc/myDianxiangOc/myDianxiangOc/&#x9996;&#x9875;/Indexhead.xib">
+   </FileRef>
+   <FileRef
       location = "group:myDianxiangOc.xcodeproj">
    </FileRef>
    <FileRef

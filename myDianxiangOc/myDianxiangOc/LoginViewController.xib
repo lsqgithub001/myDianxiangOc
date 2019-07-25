@@ -13,6 +13,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
             <connections>
                 <outlet property="aspTitleHeig" destination="g7d-Ao-SVy" id="ohe-6p-f9Z"/>
+                <outlet property="loginBtn" destination="rOe-aR-d8L" id="KT0-fw-lGw"/>
+                <outlet property="myPassword" destination="daQ-ku-U8g" id="e8c-ER-aZi"/>
                 <outlet property="myPhone" destination="XRc-ep-cVa" id="7WY-rZ-RgM"/>
                 <outlet property="myTitle" destination="s7C-Pt-0tF" id="EIr-MN-b8b"/>
                 <outlet property="registerBtn" destination="j3v-ei-azo" id="N7G-Ff-uP0"/>
@@ -101,15 +103,18 @@
                             </constraints>
                             <state key="normal" backgroundImage="login_icon_unvisible 拷贝 2"/>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOe-aR-d8L">
+                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOe-aR-d8L">
                             <rect key="frame" x="16" y="167" width="341" height="48.5"/>
-                            <color key="backgroundColor" red="0.94041723012924194" green="0.71144318580627441" blue="0.82746177911758423" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="backgroundColor" red="0.99635308980941772" green="0.7102057933807373" blue="0.8485521674156189" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="rOe-aR-d8L" secondAttribute="height" multiplier="7:1" id="eCR-yr-YyK"/>
                             </constraints>
                             <state key="normal" title="立即登陆">
                                 <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </state>
+                            <connections>
+                                <action selector="loginAct:" destination="-1" eventType="touchUpInside" id="T8R-TE-8Vo"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bKe-MG-uwc">
                             <rect key="frame" x="16" y="243.5" width="58" height="13"/>
